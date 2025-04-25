@@ -1,8 +1,6 @@
 #include <iostream>
 
-using namespace std;
-
 int main() {
-    cout << "Hello" ;
+    std::cout << "Hello" ;
     return 0;
 }
