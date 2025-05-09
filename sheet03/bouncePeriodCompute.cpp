@@ -11,11 +11,11 @@ double func(double x) {
 
 double trapezoidalRule(double a, double b, int n) {
     double h = (b - a) / n; 
-    double sum = 0.5 * (func(f, a) + func(f, b)); 
+    double sum = 0.5 * (func(a) + func(b)); 
 
     for (int i = 1; i < n; ++i) {
         double x = a + i * h;
-        sum += func(f, x);
+        sum += func(x);
     }
 
     return sum * h;
@@ -27,11 +27,11 @@ double simpsonsRule(double a, double b, int n) {
     }
 
     double h = (b - a) / n;
-    double sum = func(f, a) + func(f, b);
+    double sum = func(a) + func(b);
 
     for (int i = 1; i < n; ++i) {
         double x = a + i * h;
-        sum += (i % 2 == 0) ? 2 * func(f, x) : 4 * func(f, x);
+        sum += (i % 2 == 0) ? 2 * func(x) : 4 * func(x);
     }
 
     return (sum * h) / 3;
@@ -39,4 +39,7 @@ double simpsonsRule(double a, double b, int n) {
 
 int main() {
 
+
+
+    return 0;
 }
