@@ -4,9 +4,7 @@
 #include <iomanip>
 
 double func(double x) {
-    double v;
-    v = x*x;
-    return v; 
+    return x*x - x*x*x; 
 }
 
 double trapezoidalRule(double a, double b, int n) {
@@ -38,8 +36,13 @@ double simpsonsRule(double a, double b, int n) {
 }
 
 int main() {
-
-
+    double v1 = 100.00, v2 = 10.00, a = 0.5, b = 3.0;
+    for(int i = 0; (v2-v1) >= 0.0001; ++i){ //check the crap you fucked up here
+        v1 = v2;
+        v2 = trapezoidalRule(a,b, 10+i);
+        std::cout << "Iteration " << i << ", Trap: " << std::setprecision(10) << v2 << ", und Simpson: " << simpsonsRule(a,b,10+i) << std::endl;
+    }
+     
 
     return 0;
 }
