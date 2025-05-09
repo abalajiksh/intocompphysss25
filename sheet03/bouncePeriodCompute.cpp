@@ -3,19 +3,13 @@
 #include <cmath>
 #include <iomanip>
 
-double func(int f, double x) {
+double func(double x) {
     double v;
-
-    if (f == 1) {
-        v = //func1;
-    } else {
-        v = //func2;
-    }
-
+    v = x*x;
     return v; 
 }
 
-double trapezoidalRule(double a, double b, int n, int f) {
+double trapezoidalRule(double a, double b, int n) {
     double h = (b - a) / n; 
     double sum = 0.5 * (func(f, a) + func(f, b)); 
 
@@ -27,7 +21,7 @@ double trapezoidalRule(double a, double b, int n, int f) {
     return sum * h;
 }
 
-double simpsonsRule(double a, double b, int n, int f) {
+double simpsonsRule(double a, double b, int n) {
     if (n % 2 != 0) {
         n++;
     }
