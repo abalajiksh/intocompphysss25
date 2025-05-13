@@ -1,5 +1,0 @@
-delete the data folder before compiling and executing the *.cpp.
-
-use this command below to compile the files and run it successfully():
-
-g++ something
