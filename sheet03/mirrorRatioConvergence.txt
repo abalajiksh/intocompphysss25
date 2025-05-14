@@ -1,0 +1,10 @@
+Epsilon = 1, Tb = 2.617993878e-06
+Epsilon = 2, Tb = 2.776801836e-06
+Epsilon = 3, Tb = 3.022998941e-06
+Epsilon = 4, Tb = 3.915445693e-06
+Epsilon = 5, Tb = 3.510837676e-06
+Epsilon = 6, Tb = 3.197657192e-06
+Epsilon = 7, Tb = 2.965282076e-06
+Epsilon = 8, Tb = 2.775879026e-06
+Epsilon = 9, Tb = 2.617231658e-06
+Epsilon = 10, Tb = 2.476488317e-06
