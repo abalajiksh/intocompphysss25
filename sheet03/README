@@ -1,4 +1,4 @@
-bouncePeriodCompute.cpp generates the file with the integration values upto the specified error tolerance.
+bouncePeriodCompute.cpp generates the bouncePeriodCompute.txt with the integration values upto the specified error tolerance.
 mirrorRatioConvergence.cpp generates the file with data to show the convergence of the quadrature with change in varepsilon.
 crazyMagFieldFunc.cpp generates the file with data with integration values for the crazy magnetic field.
 bouncePeriodPlots.ipynb has all the plots and other answers to the exervise sheet questions.

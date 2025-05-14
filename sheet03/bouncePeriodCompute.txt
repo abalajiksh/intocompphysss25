@@ -1,0 +1,4 @@
+Iteration 0, Trap: 2.764188422e-06
+Iteration 1, Trap: 3.107709364e-06
+Iteration 0, Simpson: 2.928710987e-06
+Iteration 1, Simpson: 3.222216345e-06
